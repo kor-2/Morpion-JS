@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+#wrapper{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+#board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+}
+#giga-box{
+    display: flex;
+}
+.case{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black ;
+}
+.case:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
